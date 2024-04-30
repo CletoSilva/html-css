@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tangs</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: lightgray;
+            margin: 0;
+        }
+
+        header {
+            background-color: white;
+            padding: 15px;
+            margin: 10px;
+            border-radius: 15px;
+        }
+
+        header h1 {
+            margin-left: 30px;
+        }
+
+        nav {
+            padding: 3px;
+            background-color: gray;
+            border-radius: 40px;
+        }
+
+        nav>a {
+            margin-left: 30px;
+            text-decoration: none;
+            font-weight: bold;
+            color: white;
+        }
+
+        nav>a:hover {
+            border-top: 3px solid blue;
+        }
+
+        main {
+            display: flex;
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 15px;
+        }
+
+        .coluna {
+            padding: 15px;
+            margin: 10px;
+            background: lightgray;
+            border-radius: 10px;
+            box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.315);
+        }
+
+        article p {
+            text-align: justify;
+        }
+
+        aside {
+            background-color: rgb(92, 92, 92);
+            color: white;
+            padding-left: 20px;
+            border-radius: 40px;
+        }
+
+        footer {
+            background-color: rgb(77, 77, 77);
+            color: white;
+            padding: 10px;
+            margin: 0px;
+            display: flex;
+        }
+
+        footer p {
+            margin: auto;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Links</a>
+            <a href="#">Links</a>
+            <a href="#">Links</a>
+            <a href="#">Links</a>
+            <a href="#">Links</a>
+        </nav>
+    </header>
+    <main>
+        <section class="coluna">
+            <article>
+                <h2>Notícia sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, maiores veniam tempora animi ut
+                    officiis accusantium minima rerum, omnis dolorem incidunt iste dicta laudantium rem quam aliquid
+                    expedita consequuntur quia.</p>
+                <aside>
+                    <p>Artigo escrito por Jóse Maria</p>
+                </aside>
+            </article>
+        </section>
+        <section class="coluna">
+            <article>
+                <h2>Noticia sobre o Mundo</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius excepturi deleniti deserunt neque
+                    debitis eaque tempore ad facere hic quibusdam natus in vero consequatur nam, laudantium quam at
+                    molestias! Atque.</p>
+                <aside>
+                    <p>Artigo escrito por Jhon Mary</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Cleto Silva</p>
+    </footer>
+</body>
+
+</html>
